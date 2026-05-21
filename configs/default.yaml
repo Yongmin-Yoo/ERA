@@ -1,0 +1,49 @@
+# ERA Framework Configuration
+
+# Data
+data:
+  max_seq_length: 4096
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  value_tiers:
+    low: [1, 3]
+    medium: [4, 6]
+    high: [7, 20]
+
+# Teacher Model (Data Synthesis)
+synthesis:
+  model: "gpt-4"
+  temperature: 0.2
+  max_tokens: 1024
+  batch_size: 5
+  output_dir: "data/synthesized"
+
+# Student Model (Training)
+training:
+  model_name: "meta-llama/Meta-Llama-3-8B"
+  lora:
+    rank: 16
+    alpha: 32
+    dropout: 0.05
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  optimizer: "adamw"
+  learning_rate: 2.0e-4
+  warmup_ratio: 0.03
+  lr_scheduler: "cosine"
+  num_epochs: 3
+  per_device_batch_size: 4
+  gradient_accumulation_steps: 4
+  max_grad_norm: 1.0
+  output_dir: "checkpoints/era"
+
+# Inference
+inference:
+  max_new_tokens: 512
+  temperature: 0.0
+  do_sample: false
+  output_dir: "outputs/predictions"
+
+# Evaluation
+evaluation:
+  metrics: ["accuracy", "macro_f1", "mcc"]
