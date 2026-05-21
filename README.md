@@ -1,7 +1,7 @@
 # ERA: Economic Reasoning Alignment via Instruction Tuning
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://www.sciencedirect.com/science/article/pii/S030645732600289X)
+[![Paper](https://img.shields.io/badge/Paper-Information%20Processing%20and%20Management-blue)](https://doi.org/10.1016/j.ipm.2026.104898)
 
 Official implementation of **"ERA: Aligning Semantic Models with Revealed Economic Preference for Real-time and Explainable Patent Valuation"**, published in *Information Processing and Management* (2026).
 
