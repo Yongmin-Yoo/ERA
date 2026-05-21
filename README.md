@@ -49,7 +49,7 @@ Prepare your patent data in JSONL format with the following fields:
 
 ~~~json
 {
-    "id": "EP2845001",
+    "id": "EPXXXXXXX",
     "title": "Patent title",
     "abstract": "Patent abstract text...",
     "claims": "1. Independent claim text...",
