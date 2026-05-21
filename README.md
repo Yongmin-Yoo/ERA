@@ -9,9 +9,6 @@ Official implementation of **"ERA: Aligning Semantic Models with Revealed Econom
 
 ERA is a framework that aligns the semantic reasoning of Large Language Models (LLMs) with revealed economic preferences (patent renewal behavior) to enable **real-time** and **explainable** patent valuation. Unlike traditional approaches that rely on lagging bibliometric indicators, ERA leverages renewal history as an objective supervisory signal and generates structured Economic Chain-of-Thought rationales.
 
-<p align="center">
-  <img src="assets/framework.png" width="85%" alt="ERA Framework Overview"/>
-</p>
 
 ### Key Contributions
 
