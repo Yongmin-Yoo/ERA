@@ -23,7 +23,7 @@ ERA achieves superior performance across all evaluated metrics on the EPO patent
 |-------|----------|----------|-----|
 | TF-IDF + Random Forest | 61.2 | 59.8 | 0.42 |
 | Longformer | 74.8 | 73.2 | 0.62 |
-| GPT-5-mini (Zero-shot) | 76.1 | 73.5 | 0.65 |
+| GPT-5-mini  | 76.1 | 73.5 | 0.65 |
 | **ERA (Ours)** | **83.4** | **79.6** | **0.79** |
 
 ## Installation
