@@ -39,7 +39,7 @@ pip install -r requirements.txt
 - Python >= 3.10
 - PyTorch >= 2.1.0
 - CUDA >= 12.0 (for GPU training)
-- At least 24GB GPU VRAM (e.g., RTX 3090, RTX 4090, A100, H100)
+- At least 24GB GPU VRAM (e.g., RTX 3090, RTX 4090, A100, H100) recommend more than 40GB GPU RAM
 
 ## Quick Start
 
